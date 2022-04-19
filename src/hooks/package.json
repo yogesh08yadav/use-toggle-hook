@@ -1,0 +1,28 @@
+{
+  "name": "use-toggle-hook",
+  "version": "1.0.1",
+  "description": "This hook is used to toggle a button which gives true or false value",
+  "main": "use-toggle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogesh08yadav/use-toggle-hook.git"
+  },
+  "keywords": [
+    "use-hooks",
+    "use-toggle",
+    "use-toggle-hooks"
+  ],
+  "author": "yogesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yogesh08yadav/use-toggle-hook/issues"
+  },
+  "homepage": "https://github.com/yogesh08yadav/use-toggle-hook#readme",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}

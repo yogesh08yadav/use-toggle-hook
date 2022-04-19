@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import useToggle from 'use-toggle-hook';
+import { useState } from 'react';
 
 function App() {
+  const[isOn, setIsOn] = useToggle()
   return (
     <div className="App">
       <header className="App-header">
@@ -9,6 +12,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        {
+          isOn ?   <h3>You are doing good</h3> 
+        :
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,6 +23,9 @@ function App() {
         >
           Learn React
         </a>
+        }
+        
+        <button onClick={() => setIsOn(!isOn)}>Is active {`${isOn}`}</button>
       </header>
     </div>
   );
